@@ -8,18 +8,9 @@ If you are interested, here's the [intro to the series](https://medium.com/100-d
 
 The challenge was quite fun and rough, as well. Do not expect the implementations to be the best, nor fastest, nor nicest, nor bug-free. Do expect to see code written in haste. A code that contains the same amount of enthusiasm and love to algorithms as many it contains bugs.
 
-
-#### local machine
-
-* download and install the latest version of [Anaconda](https://www.continuum.io/downloads) distribution
-* clone the repo: `git clone https://github.com/coells/100days.git`
-* open terminal and run Jupyter notebook: `jupyter notebook`
-* open [localhost:8888](http://localhost:8888/tree) in your browser
-
 #### notes
 
-* the codebase was developed using `Python 3.6` and `Anaconda 4.3.1`
-* notebooks containing [Bokeh](http://bokeh.pydata.org/en/latest/) plots are not directly supported by Github; you better clone the repo a run notebooks locally
+* the codebase was developed using `Python 3.6`
 
 #### alternate repository
 
