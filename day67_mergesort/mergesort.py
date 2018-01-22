@@ -18,7 +18,8 @@ def merge(array, begin, middle, end):
     k = begin # Initial index of merged subarray
 
     while i <= middle and j <= end:
-        if tmp_arr[i] < tmp_arr[j]:
+        # Compare smaller or equal (<=) to keep the sort stable
+        if tmp_arr[i] <= tmp_arr[j]:
             array[k] = tmp_arr[i]
             i += 1
         else:
