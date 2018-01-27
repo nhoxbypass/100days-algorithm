@@ -20,7 +20,6 @@ class Node:
 		return self.val == other.val
 
 # This linked list implemented that we always insert to before the HEAD
-# Some kind like FIFO
 class LinkedList:
 	def __init__(self):
 		# the pointer to head node initially points to nothing
@@ -112,7 +111,7 @@ def generate_input():
 	random_array = random.sample(range(30), 20)
 	list = LinkedList()
 	for item in random_array:
-		list.push(Node(item))
+		list.push(item)
 
 	return list
 
@@ -123,7 +122,7 @@ list = generate_input()
 list.traversal()
 
 print(" - Push node with value = 99: ")
-list.push(Node(99))
+list.push(99)
 list.traversal()
 
 print(" - Delete: ")

@@ -31,7 +31,9 @@ def bubblesort_optimized_1(array):
 		swapped = False
 
 		# Last i elements are already in place
-		# So we decrease the number the loop have to run run to i   
+		# So we decrease the number the loop have to run run to i
+		# Because we compare each pair -> the bigger item always be swap to the right
+		# So with each loop, the biggest item in range [0, n-i] will be moved to the last position of this part (position n-i-1)    
 		for j in range(0, len(array) - i - 1):
 			if array[j] > array[j+1]:
 				swap(array, j, j+1)
