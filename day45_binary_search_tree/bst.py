@@ -178,12 +178,24 @@ class BinarySearchTree:
 #generate 20 number from 0-17
 def generate_input():
 	random_array = random.sample(range(17), 17)
+	return random_array
+
+def sort(array):
 	tree = BinarySearchTree()
-	for item in random_array:
-		tree.insert(item)
+	
+	# Create tree
+	for i in range(0, len(array)):
+		tree.insert(array[i])
 
-	return tree
+	array.clear()
+	get_inorder_traversal(array, tree.root)
+	
 
+def get_inorder_traversal(array, parent):
+	if parent is not None:
+		get_inorder_traversal(array, parent.left)
+		array.append(parent.val)
+		get_inorder_traversal(array, parent.right)
 
 # TEST
 # Returns true if the given tree is a binary search tree
@@ -219,7 +231,12 @@ def isBSTUtil(node, mini, maxi):
 #	  1   3  5  7  9   11 13 
 
 # Uncomment if you want to use random dynamic value
-#tree = generate_input()
+# tree = generate_input()
+# tree = BinarySearchTree()
+#	for item in random_array:
+#		tree.insert(item)
+#
+#	return tree
 
 tree = BinarySearchTree()
 tree.insert(8)
@@ -257,3 +274,11 @@ tree.display()
 tree.delete(4)
 print(" - Delete 4: ")
 tree.display()
+
+print(" - Random array: ")
+array = generate_input()
+print(array)
+
+sort(array)
+print(" - Sorted: ")
+print(array)
