@@ -94,29 +94,23 @@ class BinarySearchTree:
 		# Base Case
 		if parent is None:
 			return parent
-
-		print("Value: " + str(value))
 		
 		# If key is same as root's key, then this is the node
 		# to be deleted
 		if parent.val == value:
-			print("Equal")
 			# Node with only one child or no child
 			if parent.haveLeftChild() and not parent.haveRightChild():
 				# If there is only left child
-				print("Only left child")
 				temp = parent.left
 				parent = None
 				return temp 
 			if not parent.haveLeftChild() and parent.haveRightChild():
 				# If there is only right child
-				print("Only right child")
 				temp = parent.right
 				parent = None
 				return temp
 			if not parent.haveLeftChild() and not parent.haveRightChild():
 				# No child node
-				print("No child")
 				parent = None
 				return None
 			else:
@@ -125,7 +119,6 @@ class BinarySearchTree:
 				# Because the min node in the right subtree is bigger than every node in the left subtree
 				# And it is smaller than the rest node in the right subtree
 				# So it suitable to be new parent node
-				print("Both child")
 				temp = self.minValueNode(parent.right)
 				
 				# Copy the inorder successor's content to this node
@@ -140,12 +133,10 @@ class BinarySearchTree:
 		if value < parent.val:
 			# If the key to be deleted is similiar than the root's
 			# key then it lies in  left subtree
-			print("Go to left")
 			parent.left = self.deleteAt(parent.left, value)
 		elif value > parent.val:
 			# If the kye to be delete is greater than the root's key
    			 # then it lies in right subtree
-			print("Go to right")
 			parent.right = self.deleteAt(parent.right, value)
 		
 		return parent
@@ -196,6 +187,37 @@ def get_inorder_traversal(array, parent):
 		get_inorder_traversal(array, parent.left)
 		array.append(parent.val)
 		get_inorder_traversal(array, parent.right)
+
+def storeBSTNodes(array, parent):
+	if parent is not None:
+		storeBSTNodes(array, parent.left)
+		array.append(parent)
+		storeBSTNodes(array, parent.right)
+
+# This functions converts an unbalanced BST to a balanced BST
+def balanceTree(node):
+	# Store nodes of given BST in sorted order
+	nodes = []
+	storeBSTNodes(nodes, node)
+
+	n = len(nodes)
+	return balanceTreeUtil(nodes, 0, n - 1)
+
+# Recursive function to construct binary tree
+def balanceTreeUtil(nodes, start, end):
+	if start > end:
+		return None
+
+	# Get the middle element and make it root
+	mid = (start + end) // 2
+	node = nodes[mid]
+
+	# Using index in Inorder traversal, construct left and right subtress
+	node.left = balanceTreeUtil(nodes, start, mid - 1)
+	node.right = balanceTreeUtil(nodes, mid + 1, end)
+
+	return node
+
 
 # TEST
 # Returns true if the given tree is a binary search tree
@@ -282,3 +304,17 @@ print(array)
 sort(array)
 print(" - Sorted: ")
 print(array)
+
+print(" - Unbalanced BST: ")
+array.clear()
+array = generate_input()
+tree = BinarySearchTree()
+for item in array:
+	tree.insert(item)
+
+print(" - Display: ")
+tree.display()
+
+print(" - Balance: ")
+tree.root = balanceTree(tree.root)
+tree.display()
