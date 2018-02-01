@@ -52,6 +52,32 @@ def search_no_recursive(array, item):
 	return -1
 
 
+def interpolation_search(array, low, high, item):
+	# Since array is sorted, an element present in array must be in range defined by corner
+	if low > high or item < array[low] or item > array[high]:
+		return - 1
+	
+	# If only 1 item left, compare this item
+	if low == high:
+		if array[low] == item:
+			return low
+		return -1
+	
+	# Probing the position with keeping uniform distribution in mind.
+	mid = low + int(float(high - low) * (item - array[low]) / (array[high] - array[low]))
+	
+	# Condition of target found
+	if array[mid] == item:
+		return mid
+
+	if item < array[mid]:
+		# If item is smaller, item is in lower part
+		return interpolation_search(array, low, mid - 1, item)
+	elif item > array[mid]:
+		# If item is larger, item is in upper part
+		return interpolation_search(array, mid + 1, high, item)
+
+
 # Run
 array = generate_input()
 array.sort() # Provide sorted array
@@ -61,5 +87,8 @@ print(array)
 index = search(array, 0, len(array) - 1, 7)
 print(" - Search (7). Index: " + str(index))
 
-index = search(array, 0, len(array) - 1, 11)
+index = search_no_recursive(array, 11)
 print(" - Search (11) non-recursive. Index: " + str(index))
+
+index = interpolation_search(array, 0, len(array) - 1, 15)
+print(" - Search (15) interpolation search. Index: " + str(index))
