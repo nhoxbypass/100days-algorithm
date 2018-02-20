@@ -8,7 +8,9 @@ def generate_input():
 # This is method to support create a min binary heap
 # create max heap from unsorted array
 def build_binary_heap(heap):
-    n = len(heap) // 2
+    # Because we loop from middle of heap up to the root to heapify down to the leave
+    # so we can ignore the middle bottom part (bigger than n/2, which also leave)
+    n = len(heap) // 2 # Or just use len(heap)
 
     # Loop thru all node except the leaves
     for i in reversed(range (0, n)):

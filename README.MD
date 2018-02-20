@@ -1,6 +1,6 @@
 ### 100 days of algorithms
 
-This repository contains notebooks with live code to accompany [100 days of algorithms](https://medium.com/100-days-of-algorithms) challenge.
+This repository contains source code to accompany [100 days of algorithms](https://medium.com/100-days-of-algorithms) challenge.
 
 I set the challenge for myself to implement algorithm by algorithm, day by day, until the number reaches **100**.
 
@@ -11,7 +11,3 @@ The challenge was quite fun and rough, as well. Do not expect the implementation
 #### notes
 
 * the codebase was developed using `Python 3.6`
-
-#### alternate repository
-
-[Microsoft Azure Notebooks](https://notebooks.azure.com/coells/libraries/100days) with `Python 3.5` support
