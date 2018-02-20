@@ -1,4 +1,4 @@
-*Note: Write a solution that only iterates over the string once and uses O(1) additional memory, since this is what you would be asked to do during a real interview.*
+*Note: Write a solution that only iterates over the string once and uses `O(1)` additional memory, since this is what you would be asked to do during a real interview.*
 
 Given a string `s`, find and return the first instance of a non-repeating character in it. If there is no such character, return `'_'`.
 
@@ -21,7 +21,10 @@ Given a string `s`, find and return the first instance of a non-repeating charac
 A string that contains only lowercase English letters.
 
 Guaranteed constraints:
-`1 ≤ s.length ≤ 105`.
+
+```
+1 ≤ s.length ≤ 105
+```
 
 * **[output] char**
 

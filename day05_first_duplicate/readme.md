@@ -17,8 +17,11 @@ Given an array a that contains only numbers in the range from `1` to `a.length`,
 * **[input] array.integer a**
 
 Guaranteed constraints:
-`1 ≤ a.length ≤ 105`,
-`1 ≤ a[i] ≤ a.length`.
+
+```
+1 ≤ a.length ≤ 105,
+1 ≤ a[i] ≤ a.length
+```
 
 * **[output] integer**
 

@@ -30,8 +30,11 @@ rotateImage(a) =
 A string that contains only lowercase English letters.
 
 Guaranteed constraints:
-`1 ≤ a.length ≤ 100`,
-`a[i].length = a.length`,
-`1 ≤ a[i][j] ≤ 104`.
+
+```
+1 ≤ a.length ≤ 100,
+a[i].length = a.length,
+1 ≤ a[i][j] ≤ 104
+```
 
 * **[output] array.array.integer**
