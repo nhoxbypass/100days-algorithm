@@ -1,4 +1,4 @@
-package covid19.day11;
+package covid19.day11_diameter_of_binary_tree;
 
 class Solution {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package covid19.day1;
+package covid19.day1_single_number;
 
 class Solution {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package covid19.day4;
+package covid19.day4_move_zeroes;
 
 class Solution {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package covid19.day10;
+package covid19.day10_min_stack;
 
 class Solution {
     public static void main(String[] args) {

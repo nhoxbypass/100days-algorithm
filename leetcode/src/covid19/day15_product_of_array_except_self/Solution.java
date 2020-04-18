@@ -1,4 +1,4 @@
-package covid19.day15;
+package covid19.day15_product_of_array_except_self;
 
 class Solution {
     public static void main(String[] args) {

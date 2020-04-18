@@ -1,6 +1,4 @@
-package covid19.day14;
-
-import java.util.Arrays;
+package covid19.day14_perform_string_shift;
 
 class Solution {
     public static void main(String[] args) {

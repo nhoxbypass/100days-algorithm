@@ -1,4 +1,4 @@
-package covid19.day13;
+package covid19.day13_contigous_array;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package covid19.day2;
+package covid19.day2_happy_number;
 
 class Solution {
     public static void main(String[] args) {

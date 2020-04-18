@@ -1,4 +1,4 @@
-package covid19.day8;
+package covid19.day8_middle_of_linked_list;
 
 class Solution {
     public static void main(String[] args) {

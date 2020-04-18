@@ -1,4 +1,4 @@
-package covid19.day9;
+package covid19.day9_backspace_string_compare;
 
 class Solution {
     public static void main(String[] args) {

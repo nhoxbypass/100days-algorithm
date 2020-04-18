@@ -1,6 +1,4 @@
-package covid19.day16;
-
-import java.util.Stack;
+package covid19.day16_valid_parenthesis_string;
 
 class Solution {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package covid19.day17;
+package covid19.day17_number_of_islands;
 
 class Solution {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package covid19.day3;
+package covid19.day3_maximum_subarray;
 
 class Solution {
     static int currMax = Integer.MIN_VALUE;

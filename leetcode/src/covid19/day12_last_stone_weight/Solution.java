@@ -1,4 +1,4 @@
-package covid19.day12;
+package covid19.day12_last_stone_weight;
 
 class Solution {
     public static void main(String[] args) {
