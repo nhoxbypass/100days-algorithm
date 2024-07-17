@@ -1,4 +1,4 @@
-package y2024.create_binary_tree_from_descriptions_2196
+package y2024.q2196_create_binary_tree_from_descriptions
 
 class TreeNode(var `val`: Int) {
     var left: TreeNode? = null

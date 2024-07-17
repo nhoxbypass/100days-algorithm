@@ -1,4 +1,4 @@
-package y2024.water_bottles_1518
+package y2024.q1518_water_bottles
 
 class Solution {
     fun numWaterBottles(numBottles: Int, numExchange: Int): Int {

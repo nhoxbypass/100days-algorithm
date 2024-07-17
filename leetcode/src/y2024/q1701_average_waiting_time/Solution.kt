@@ -1,4 +1,4 @@
-package y2024.average_waiting_time_1701
+package y2024.q1701_average_waiting_time
 
 
 class Solution {

@@ -1,4 +1,4 @@
-package y2024.crawler_log_folder_1598
+package y2024.q1598_crawler_log_folder
 
 class Solution {
     private val BACK = "../"

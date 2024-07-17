@@ -1,4 +1,4 @@
-package y2024.find_the_winner_of_the_circular_game_1823
+package y2024.q1823_find_the_winner_of_the_circular_game
 
 
 class Solution {

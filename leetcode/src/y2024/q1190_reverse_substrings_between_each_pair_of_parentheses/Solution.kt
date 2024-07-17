@@ -1,4 +1,4 @@
-package y2024.reverse_substrings_between_each_pair_of_parentheses_1190
+package y2024.q1190_reverse_substrings_between_each_pair_of_parentheses
 
 class Solution {
     fun reverseParentheses(s: String): String {

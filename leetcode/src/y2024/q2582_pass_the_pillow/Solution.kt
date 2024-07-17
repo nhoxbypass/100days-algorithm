@@ -1,4 +1,4 @@
-package y2024.pass_the_pillow_2582
+package y2024.q2582_pass_the_pillow
 
 class Solution {
     fun passThePillow(n: Int, time: Int): Int {
