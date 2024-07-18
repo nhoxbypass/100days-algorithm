@@ -1,38 +1,7 @@
 package y2024.q2096_step_by_step_directions_from_a_binary_tree_node_to_another
 
-import java.util.*
-
-class TreeNode(var `val`: Int) {
-    var left: TreeNode? = null
-    var right: TreeNode? = null
-}
-
-fun buildTreeFromBFS(nodes: List<Int?>): TreeNode? {
-    if (nodes.isEmpty() || nodes[0] == null) return null
-
-    val root = TreeNode(nodes[0]!!)
-    val queue: Queue<TreeNode> = LinkedList<TreeNode>()
-    queue.add(root)
-
-    var index = 1
-    while (index < nodes.size && !queue.isEmpty()) {
-        val node = queue.poll()
-        val leftValue = nodes[index++]
-        if (leftValue != null) {
-            node.left = TreeNode(leftValue)
-            queue.offer(node.left)
-        }
-        if (index < nodes.size) {
-            val rightValue = nodes[index++]
-            if (rightValue != null) {
-                node.right = TreeNode(rightValue)
-                queue.offer(node.right)
-            }
-        }
-    }
-
-    return root
-}
+import y2024.utils.TreeNode
+import y2024.utils.buildTreeFromBFS
 
 class Solution {
     fun getDirections(root: TreeNode?, startValue: Int, destValue: Int): String {

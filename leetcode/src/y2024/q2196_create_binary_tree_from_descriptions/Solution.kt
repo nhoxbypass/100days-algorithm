@@ -1,9 +1,6 @@
 package y2024.q2196_create_binary_tree_from_descriptions
 
-class TreeNode(var `val`: Int) {
-    var left: TreeNode? = null
-    var right: TreeNode? = null
-}
+import y2024.utils.TreeNode
 
 class Solution {
     fun createBinaryTree(descriptions: Array<IntArray>): TreeNode? {
