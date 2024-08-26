@@ -38,6 +38,10 @@ fun buildTreeFromBFS(nodes: List<Int?>): TreeNode? {
     return root
 }
 
+class Node(var `val`: Int) {
+    var children: List<Node?> = listOf()
+}
+
 /**
  * Quick Sort
  */
