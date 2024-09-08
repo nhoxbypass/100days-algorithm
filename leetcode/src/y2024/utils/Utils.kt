@@ -42,6 +42,24 @@ class Node(var `val`: Int) {
     var children: List<Node?> = listOf()
 }
 
+class ListNode(var `val`: Int) {
+    var next: ListNode? = null
+}
+
+fun buildSingleLinkedList(items: List<Int>): ListNode? {
+    if (items.isEmpty()) return null
+
+    val head = ListNode(items[0])
+    var currNode = head
+    for (i in 1..<items.size) {
+        ListNode(items[i]).let {
+            currNode.next = it
+            currNode = it
+        }
+    }
+    return head
+}
+
 /**
  * Quick Sort
  */
