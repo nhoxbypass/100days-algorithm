@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f646638-1c7c-4f33-a3e2-aa435f90b25d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/y2024/q1455_check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence/Solution.kt" afterDir="false" />
+    <list default="true" id="4f646638-1c7c-4f33-a3e2-aa435f90b25d" name="Changes" comment="Leetcode: q2559_count_vowel_strings_in_ranges">
+      <change afterPath="$PROJECT_DIR$/y2024/q1930_unique_length_3_palindromic_subsequences/Solution.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +16,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -30,6 +29,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Kotlin.SolutionKt (1).executor": "Run",
+    "Kotlin.SolutionKt (2).executor": "Debug",
+    "Kotlin.SolutionKt (3).executor": "Debug",
     "Kotlin.SolutionKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -51,9 +52,16 @@
       <recent name="$PROJECT_DIR$/y2024" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SolutionKt (1)">
+  <component name="RunManager" selected="Kotlin.SolutionKt (3)">
     <configuration name="SolutionKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="y2024.q1455_check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence.SolutionKt" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="y2024.q2559_count_vowel_strings_in_ranges.SolutionKt" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -66,8 +74,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="y2025.q2559_count_vowel_strings_in_ranges.SolutionKt" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="y2025.q1930_unique_length_3_palindromic_subsequences.SolutionKt" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SolutionKt (3)" />
+        <item itemvalue="Kotlin.SolutionKt (2)" />
         <item itemvalue="Kotlin.SolutionKt (1)" />
         <item itemvalue="Kotlin.SolutionKt" />
       </list>
@@ -82,6 +106,87 @@
       <option name="presentableId" value="Default" />
       <updated>1720278453190</updated>
     </task>
+    <task id="LOCAL-00001" summary="Leetcode: q1455_check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence">
+      <option name="closed" value="true" />
+      <created>1733161580949</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733161580949</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Configs">
+      <option name="closed" value="true" />
+      <created>1733161594547</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733161594547</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Leetcode: q3264_final_array_state_after_k_multiplication_operations_i">
+      <option name="closed" value="true" />
+      <created>1734371501038</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734371501038</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Leetcode: q2182_construct_string_with_repeat_limit">
+      <option name="closed" value="true" />
+      <created>1734538502711</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734538502711</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Leetcode: q1475_final_prices_with_a_special_discount_in_a_shop">
+      <option name="closed" value="true" />
+      <created>1734542417064</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734542417064</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Leetcode: q769_max_chunks_to_make_sorted">
+      <option name="closed" value="true" />
+      <created>1734627307471</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734627307471</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Leetcode: q2466_count_ways_to_build_good_strings">
+      <option name="closed" value="true" />
+      <created>1735576518424</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735576518424</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Leetcode: q938_minimum_cost_for_tickets">
+      <option name="closed" value="true" />
+      <created>1735634804975</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735634804975</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Leetcode: q1422_maximum_score_after_splitting_a_string">
+      <option name="closed" value="true" />
+      <created>1735749786415</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735749786415</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Leetcode: q2559_count_vowel_strings_in_ranges">
+      <option name="closed" value="true" />
+      <created>1735839701396</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1735839701396</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,5 +199,18 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Leetcode: q1455_check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence" />
+    <MESSAGE value="Configs" />
+    <MESSAGE value="Leetcode: q3264_final_array_state_after_k_multiplication_operations_i" />
+    <MESSAGE value="Leetcode: q2182_construct_string_with_repeat_limit" />
+    <MESSAGE value="Leetcode: q1475_final_prices_with_a_special_discount_in_a_shop" />
+    <MESSAGE value="Leetcode: q769_max_chunks_to_make_sorted" />
+    <MESSAGE value="Leetcode: q2466_count_ways_to_build_good_strings" />
+    <MESSAGE value="Leetcode: q938_minimum_cost_for_tickets" />
+    <MESSAGE value="Leetcode: q1422_maximum_score_after_splitting_a_string" />
+    <MESSAGE value="Leetcode: q2559_count_vowel_strings_in_ranges" />
+    <option name="LAST_COMMIT_MESSAGE" value="Leetcode: q2559_count_vowel_strings_in_ranges" />
   </component>
 </project>
