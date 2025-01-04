@@ -1,4 +1,4 @@
-package y2024.q2559_count_vowel_strings_in_ranges
+package y2025.q2559_count_vowel_strings_in_ranges
 
 class Solution {
     /**

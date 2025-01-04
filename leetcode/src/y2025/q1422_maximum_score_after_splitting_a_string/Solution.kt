@@ -1,4 +1,4 @@
-package y2024.q1422_maximum_score_after_splitting_a_string
+package y2025.q1422_maximum_score_after_splitting_a_string
 
 class Solution {
     /**
