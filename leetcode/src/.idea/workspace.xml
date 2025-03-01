@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f646638-1c7c-4f33-a3e2-aa435f90b25d" name="Changes" comment="Leetcode: q2559_count_vowel_strings_in_ranges">
-      <change afterPath="$PROJECT_DIR$/y2024/q1930_unique_length_3_palindromic_subsequences/Solution.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4f646638-1c7c-4f33-a3e2-aa435f90b25d" name="Changes" comment="Leetcode: q2460_apply_operations_to_an_array.q1980_find_unique_binary_string">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,16 +26,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Kotlin.SolutionKt (1).executor": "Run",
+    "Kotlin.SolutionKt (1).executor": "Debug",
     "Kotlin.SolutionKt (2).executor": "Debug",
-    "Kotlin.SolutionKt (3).executor": "Debug",
+    "Kotlin.SolutionKt (3).executor": "Run",
+    "Kotlin.SolutionKt (4).executor": "Debug",
+    "Kotlin.SolutionKt (5).executor": "Run",
+    "Kotlin.SolutionKt (6).executor": "Debug",
     "Kotlin.SolutionKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/lap16399-local/avengers/ironman/100days-algorithm/leetcode/src/y2024"
+    "last_opened_file_path": "/Users/lap16399-local/avengers/ironman/100days-algorithm/leetcode/src/y2025/q2460_apply_operations_to_an_array"
   },
   "keyToStringList": {
     "GitStage.ChangesTree.GroupingKeys": [
@@ -49,33 +50,43 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/y2025/q2460_apply_operations_to_an_array" />
+      <recent name="$PROJECT_DIR$/y2025" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/y2024" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SolutionKt (3)">
+  <component name="RunManager" selected="Kotlin.SolutionKt (4)">
     <configuration name="SolutionKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="y2024.q1455_check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence.SolutionKt" />
+      <option name="MAIN_CLASS_NAME" value="y2025.q1079_letter_tile_possibilities.SolutionKt" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SolutionKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="y2024.q2559_count_vowel_strings_in_ranges.SolutionKt" />
+      <option name="MAIN_CLASS_NAME" value="y2025.q2375_construct_smallest_number_from_di_string.SolutionKt" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="y2025.q1415_the_k_th_lexicographical_string_of_all_happy_strings_of_length_n.SolutionKt" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionKt (4)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="y2025.q2460_apply_operations_to_an_array.q1980_find_unique_binary_string.SolutionKt" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SolutionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="y2024.q1652_defuse_the_bomb.SolutionKt" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="y2025.q2559_count_vowel_strings_in_ranges.SolutionKt" />
+      <option name="MAIN_CLASS_NAME" value="y2025.q3174_clear_digits.SolutionKt" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SolutionKt (4)" />
         <item itemvalue="Kotlin.SolutionKt (3)" />
         <item itemvalue="Kotlin.SolutionKt (2)" />
         <item itemvalue="Kotlin.SolutionKt (1)" />
@@ -186,7 +198,175 @@
       <option name="project" value="LOCAL" />
       <updated>1735839701396</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Leetcode: Create new y2025 package">
+      <option name="closed" value="true" />
+      <created>1736012894212</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1736012894212</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Leetcode: q1930_unique_length_3_palindromic_subsequences">
+      <option name="closed" value="true" />
+      <created>1736012913184</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1736012913184</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Leetcode: q1769_minimum_number_of_operations_to_move_all_balls_to_each_box">
+      <option name="closed" value="true" />
+      <created>1736183626670</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1736183626670</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Leetcode: q1408_string_matching_in_an_array">
+      <option name="closed" value="true" />
+      <created>1736270455997</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1736270455997</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Leetcode: q3042_count_prefix_and_suffix_pairs_i">
+      <option name="closed" value="true" />
+      <created>1736348930442</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1736348930442</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Leetcode: q2185_counting_words_with_a_given_prefix">
+      <option name="closed" value="true" />
+      <created>1736440742070</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1736440742070</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Leetcode: q916_word_subsets">
+      <option name="closed" value="true" />
+      <created>1736531883169</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1736531883169</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Leetcode: q1400_construct_k_palindrome_strings">
+      <option name="closed" value="true" />
+      <created>1736680021443</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1736680021444</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Leetcode: q3223_minimum_length_of_string_after_operations">
+      <option name="closed" value="true" />
+      <created>1736870030374</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1736870030374</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Leetcode: q2657_find_the_prefix_common_array_of_two_arrays">
+      <option name="closed" value="true" />
+      <created>1736877151540</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1736877151540</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Leetcode: y2025.q3151_special_array_i">
+      <option name="closed" value="true" />
+      <created>1738431957063</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1738431957063</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Leetcode: q1752_check_if_array_is_sorted_and_rotated">
+      <option name="closed" value="true" />
+      <created>1738508747148</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1738508747148</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Leetcode: q3105_longest_strictly_increasing_or_strictly_decreasing_subarray">
+      <option name="closed" value="true" />
+      <created>1738595243567</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1738595243567</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Leetcode: q1800_maximum_ascending_subarray_sum">
+      <option name="closed" value="true" />
+      <created>1738753317457</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1738753317457</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Leetcode: q1790_check_if_one_string_swap_can_make_strings_equal">
+      <option name="closed" value="true" />
+      <created>1738771337668</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1738771337668</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Leetcode: q3174_clear_digits">
+      <option name="closed" value="true" />
+      <created>1739203853569</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1739203853569</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Leetcode: q1079_letter_tile_possibilities">
+      <option name="closed" value="true" />
+      <created>1739813511124</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1739813511124</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Leetcode: q2375_construct_smallest_number_from_di_string">
+      <option name="closed" value="true" />
+      <created>1739984675897</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1739984675897</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Leetcode: q1415_the_k_th_lexicographical_string_of_all_happy_strings_of_length_n">
+      <option name="closed" value="true" />
+      <created>1739988831690</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1739988831690</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Leetcode: q1980_find_unique_binary_string">
+      <option name="closed" value="true" />
+      <created>1740074838637</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1740074838637</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Leetcode: q2460_apply_operations_to_an_array.q1980_find_unique_binary_string">
+      <option name="closed" value="true" />
+      <created>1740849965272</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1740849965273</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,16 +381,55 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Leetcode: q1455_check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence" />
-    <MESSAGE value="Configs" />
-    <MESSAGE value="Leetcode: q3264_final_array_state_after_k_multiplication_operations_i" />
-    <MESSAGE value="Leetcode: q2182_construct_string_with_repeat_limit" />
-    <MESSAGE value="Leetcode: q1475_final_prices_with_a_special_discount_in_a_shop" />
-    <MESSAGE value="Leetcode: q769_max_chunks_to_make_sorted" />
     <MESSAGE value="Leetcode: q2466_count_ways_to_build_good_strings" />
     <MESSAGE value="Leetcode: q938_minimum_cost_for_tickets" />
     <MESSAGE value="Leetcode: q1422_maximum_score_after_splitting_a_string" />
     <MESSAGE value="Leetcode: q2559_count_vowel_strings_in_ranges" />
-    <option name="LAST_COMMIT_MESSAGE" value="Leetcode: q2559_count_vowel_strings_in_ranges" />
+    <MESSAGE value="Leetcode: Create new y2025 package" />
+    <MESSAGE value="Leetcode: q1930_unique_length_3_palindromic_subsequences" />
+    <MESSAGE value="Leetcode: q1769_minimum_number_of_operations_to_move_all_balls_to_each_box" />
+    <MESSAGE value="Leetcode: q1408_string_matching_in_an_array" />
+    <MESSAGE value="Leetcode: q3042_count_prefix_and_suffix_pairs_i" />
+    <MESSAGE value="Leetcode: q2185_counting_words_with_a_given_prefix" />
+    <MESSAGE value="Leetcode: q916_word_subsets" />
+    <MESSAGE value="Leetcode: q1400_construct_k_palindrome_strings" />
+    <MESSAGE value="Leetcode: q3223_minimum_length_of_string_after_operations" />
+    <MESSAGE value="Leetcode: q2657_find_the_prefix_common_array_of_two_arrays" />
+    <MESSAGE value="Leetcode: y2025.q3151_special_array_i" />
+    <MESSAGE value="Leetcode: q1752_check_if_array_is_sorted_and_rotated" />
+    <MESSAGE value="Leetcode: q3105_longest_strictly_increasing_or_strictly_decreasing_subarray" />
+    <MESSAGE value="Leetcode: q1800_maximum_ascending_subarray_sum" />
+    <MESSAGE value="Leetcode: q1790_check_if_one_string_swap_can_make_strings_equal" />
+    <MESSAGE value="Leetcode: q3174_clear_digits" />
+    <MESSAGE value="Leetcode: q1079_letter_tile_possibilities" />
+    <MESSAGE value="Leetcode: q2375_construct_smallest_number_from_di_string" />
+    <MESSAGE value="Leetcode: q1415_the_k_th_lexicographical_string_of_all_happy_strings_of_length_n" />
+    <MESSAGE value="Leetcode: q1980_find_unique_binary_string" />
+    <MESSAGE value="Leetcode: q2460_apply_operations_to_an_array.q1980_find_unique_binary_string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Leetcode: q2460_apply_operations_to_an_array.q1980_find_unique_binary_string" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/y2025/q2375_construct_smallest_number_from_di_string/Solution.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/y2025/q1415_the_k_th_lexicographical_string_of_all_happy_strings_of_length_n/Solution.kt</url>
+          <line>18</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JetRunConfigurationType">
+        <watch expression="num.joinToString(&quot;&quot;)" language="kotlin" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/src$SolutionKt__5_.ic" NAME="SolutionKt (5) Coverage Results" MODIFIED="1738659981413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
